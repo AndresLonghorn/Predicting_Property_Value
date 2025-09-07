@@ -27,8 +27,13 @@ Since correlation does not mean causation, a test of importance in relation to p
 
 <img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/eb5241fc-c36c-49d6-863e-ed45a166eb28" />
 
-In regards a higher preforming model, a random forest gives the high accuracy, yet might be subject to overfitting. The SVR can be used in par with the random forest model to give more confidence in future tests.  
+In regards a higher preforming model, MSE & R^2 is used. Depending on what is important to an investor, either can serve as benchmarks. yet might be subject to overfitting. The SVR can be used in par with the random forest model to give more confidence in future tests.  
+- R^2:
 
 <img width="182" height="38" alt="image" src="https://github.com/user-attachments/assets/f0b9ca69-3abd-47d8-a41f-51361701abcb" />
 
 <img width="599" height="229" alt="image" src="https://github.com/user-attachments/assets/841fe275-f99f-45a5-a73e-5ff865355f8d" />
+
+- MSE:
+
+<img width="133" height="32" alt="image" src="https://github.com/user-attachments/assets/e83befe6-ed02-4f70-a66b-ca43d450f7ff" />
