@@ -27,13 +27,17 @@ Since correlation does not mean causation, a test of importance in relation to p
 
 <img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/eb5241fc-c36c-49d6-863e-ed45a166eb28" />
 
-In regards a higher preforming model, MSE & R^2 is used. Depending on what is important to an investor, either can serve as benchmarks. yet might be subject to overfitting. The SVR can be used in par with the random forest model to give more confidence in future tests.  
-- R^2:
+In regards a higher preforming model, MSE & R^2 is used. Depending on what is important to an investor, either can serve as benchmarks. Overall the random forest model can designated as the best preformer and the model to predict real estate prices. 
+
+- R^2: Is used to evaluate how good of fit of a regression model to the data. It measures the proportion of variance in price that is explained by the features in the model. R-squared does not measure predictive accuracy or causality. There for it is used in par with other models to reach a decision. 
 
 <img width="182" height="38" alt="image" src="https://github.com/user-attachments/assets/f0b9ca69-3abd-47d8-a41f-51361701abcb" />
 
 <img width="599" height="229" alt="image" src="https://github.com/user-attachments/assets/841fe275-f99f-45a5-a73e-5ff865355f8d" />
 
-- MSE:
+- MSE: Evaluates the accuracy of ML models. It measures the average squared difference between the actual values and the predicted values. Lower MSE indicates a better model performance, it signifies that the predictions are closer to the actual values. The linear regression is the most accurate in this analysis.
 
 <img width="133" height="32" alt="image" src="https://github.com/user-attachments/assets/e83befe6-ed02-4f70-a66b-ca43d450f7ff" />
+
+## Conclusion
+Among the linear regression, random forest and SVR models tested, Random Forest can indicate what are the key driving factors for price. The Linear Regression drafted should be used to suggest the most precise predictions of prices for future investments. SVR underpreformed in all 2 metrics, making it obsolete for helping investors make a real estate decision. 
