@@ -31,8 +31,6 @@ In regards a higher preforming model, MSE & R^2 is used. Depending on what is im
 
 - R^2: Is used to evaluate how good of fit of a regression model to the data. It measures the proportion of variance in price that is explained by the features in the model. R-squared does not measure predictive accuracy or causality. There for it is used in par with other models to reach a decision. 
 
-<img width="182" height="38" alt="image" src="https://github.com/user-attachments/assets/f0b9ca69-3abd-47d8-a41f-51361701abcb" />
-
 <img width="599" height="229" alt="image" src="https://github.com/user-attachments/assets/841fe275-f99f-45a5-a73e-5ff865355f8d" />
 
 - MSE: Evaluates the accuracy of ML models. It measures the average squared difference between the actual values and the predicted values. Lower MSE indicates a better model performance, it signifies that the predictions are closer to the actual values. The linear regression is the most accurate in this analysis.
